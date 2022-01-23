@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.container {
+  max-width: 80rem;
+  height: 60rem;
+  background-color: yellow;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* ------ FIRST SECTION STYLING ------ */
+.first-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.again-button,
+.check-button {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 10px 8px #888888;
+  cursor: pointer;
+  /* border: 1px solid white; */
+}
+
+.info1 {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ SECOND SECTION STYLING ------ */
+.info2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+/* ------ THIRD SECTION STYLING ------ */
+.secret-number {
+  text-align: center;
+  font-size: 6rem;
+  margin: 4rem auto 4rem auto;
+  color: red;
+  background-color: black;
+  width: 8rem;
+  padding-top: 1rem;
+}
+
+/* ------  CONTENT SECTION STYLING ------ */
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* left-content */
+.left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.client-input {
+  text-align: center;
+  font-size: 4rem;
+  width: 10rem;
+}
+
+/* right-content */
+.right-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 3rem;
+}
+
+.message,
+.score,
+.score-number,
+.highscore-number {
+  padding: 1rem;
+}
